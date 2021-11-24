@@ -1,0 +1,28 @@
+form{
+    padding-top: 8.5em;
+    margin-left: 125px;
+    margin-right: 125px;
+}
+fieldset{
+    border-width: 2px;
+    border-color: #c2200d;
+}
+label{
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+    font-size: 18px;
+}
+input{
+    margin: 5px;
+    font-size: inherit;
+}
+.longTextBar>input{
+    width: 20em;
+}
+div{
+    margin-left: 125px;
+}
+.shorttextbox{
+    width: 5em;
+}

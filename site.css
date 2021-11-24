@@ -1,40 +1,87 @@
-*{
+* {
     margin: 0;
 }
-html,body{
+
+html,
+body {
     height: 100%;
 }
-body{
+
+body {
     background-color: rosybrown;
 }
-aside>img{
+aside>img {
     width: 35%;
     padding: 4.5em 2em;
 }
 
-header{
-    display: block;
+header {
     position: fixed;
     top: 0;
     left: 0;
     width: 99%;
-    background-color:#852385 ;
-    padding: 10px;
+    background-color: #852385;
+    padding: 10px;    
+}
+header>nav>ul{
+    display: block;
     text-align: right;
+    padding-top: 1em;
+    padding-right: 10px;
+    font-size: 1.5em;
+}
+header>img{
+    border-radius:  45%;
+    width: 145px;   
+    position:static;
+    padding: 0px;
+    text-align: left;
+    float: left;
+}
+header>nav>div{
+    text-align: right;
+    padding-right: 15px;
+    color: rgb(83, 83, 245);
+
+}
+footer{
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 99%;
+    background-color: #b40cb4;
+    padding: 10px;
 }
 
-nav > ul{
+nav>ul {
     display: inline;
     padding: 0;
 }
-nav > ul > li{
+
+nav>ul>li {
     display: inline-block;
     align-content: right;
     list-style: none;
     margin: 0 5px 0 5px;
 }
-nav a:visited, nav a:link{
+
+nav a:visited,
+nav a:link {
     color: #f8f8f8;
     text-decoration: none;
+}
+
+p {
+    text-indent: 25px;
+    margin-top: 50px;
+    margin-right: 85px;
+    margin-left: 75px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 25px;
 }
 
