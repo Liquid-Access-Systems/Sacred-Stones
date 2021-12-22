@@ -1,36 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="site.css" type="text/css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="site.css" />
+    <script src="index.js"></script>
     <title>Sacred Stones</title>
-</head>
-
-<body>
-    <header>
-        <img src="resources/logo.jpg" alt="Sacred Stones" >
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="Items.html">Items</a></li>
-                <!--make dropdown-->
-                <li><a href="About.html">About</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-                <li><a href="CreateUser.html">Login</a></li>
-            </ul>
-        </nav>
+  </head>
+  <body>
+    <header class="mainNavigation">
+      <img src="resources/logo.jpg" alt="Logo" />
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><div class="dropdown">
+            <a href="Crystals.html">Crystals</a>
+              <div class="dropdown-content">
+                  <a href="Amethyst.html">Amethyst</a>
+                  <a href="#">Kyanite</a>
+                  <a href="#">Calcite</a>
+                  <a href="#">Quartz</a>
+                  <a href="#">Lepidolite</a></li>
+        </div></div></li>
+          <li><a href="#">Jewlery</a></li>
+          <li><a href="#">Order</a></li>
+          <li><a href="#">About</a></li>
+          <li><button class="login">Login</button></li>
+        </ul>
+      </nav>
     </header>
-    
-    
     <main>
-        <aside><img src="resources/logo.jpg" alt="Sacred Stones"></aside>
-        <article>
-
-        </article>
+      <div class="KyaniteQuartz">
+        <img
+          id="bannerImg"
+          src="resources/blue kyanite + double clear quartz earrings.jpg"
+          alt="bannerImg"
+        />
+      </div>
     </main>
-</body>
-<footer></footer>
-
+  </body>
+  <footer>
+    <div class="emblem"><img src="resources/Stone.jpg" alt="stone" /></div>
+  </footer>
 </html>

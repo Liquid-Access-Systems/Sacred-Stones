@@ -1,1 +1,0 @@
-# Sacred Stones Pages

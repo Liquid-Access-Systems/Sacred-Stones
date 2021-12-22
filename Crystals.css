@@ -1,0 +1,140 @@
+span div {
+  display: inline-block;
+  border: black;
+  background-color: rgb(199, 199, 241);
+  border-style: solid;
+  width: 40em;
+  margin: 15px;
+}
+span div img {
+  width: 450px;
+  height: 350px;
+  padding: 1em;
+  float: right;
+}
+span div h2 {
+  margin-top: 8em;
+  float: left;
+  padding-left: 1em;
+  padding-right: 1em;
+  color: black;
+}
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 20px;
+  font-size: 64px;
+  padding: 5px;
+}
+.firstfigure,
+.firstimg {
+  margin: 2em;
+  float: right;
+}
+.firstfigure img,
+.firstimg img {
+  border-radius: 50%;
+  width: 40em;
+}
+.firstfigure img {
+  height: 40em;
+}
+.firstfigure figcaption {
+  font-size: 26px;
+  text-align: center;
+}
+.secondimg img {
+  float: left;
+  margin: 2em;
+  width: 25em;
+}
+.secondfigure {
+  margin: 2em;
+  float: left;
+}
+.secondfigure img {
+  width: 25em;
+}
+.secondfigure figcaption {
+  font-size: 26px;
+  text-align: justify;
+}
+
+.healing,
+.calcitehealing {
+  padding: 5px;
+  text-align: left;
+  margin-right: 45em;
+  margin-top: 5em;
+  margin-left: 2em;
+}
+.healing h2,
+.calcitehealing h2 {
+  margin: 10px;
+  text-align: center;
+  font-size: 35px;
+}
+.healing p {
+  float: left;
+  font-size: 26px;
+  margin: 10px;
+  text-indent: 45px;
+}
+.calcitehealing p {
+  font-size: 26px;
+  margin: 10px;
+  text-indent: 45px;
+}
+.used,
+.calciteused,
+.lepused {
+  padding: 5px;
+  margin-left: 2em;
+  margin-top: 1em;
+  text-align: left;
+}
+.lepused h2 {
+  font-size: 35px;
+  text-align: center;
+}
+.lepused p {
+  margin-right: 2em;
+  margin-left: 2em;
+  font-size: 26px;
+  text-indent: 45px;
+  padding: 5px;
+}
+.used h2 {
+  font-size: 35px;
+  text-align: center;
+  margin-top: 2em;
+  padding: 15px;
+}
+.used p {
+  font-size: 26px;
+  text-indent: 45px;
+}
+.calciteused h2 {
+  font-size: 35px;
+}
+.calciteused p {
+  font-size: 26px;
+  text-indent: 45px;
+  padding: 5px;
+}
+.recommend {
+  padding: 5px;
+  text-align: left;
+  margin-left: 35em;
+  margin-right: 5em;
+  margin-top: 3em;
+  margin-bottom: 12.5em;
+}
+.recommend h2 {
+  text-align: center;
+  padding: 10px;
+  font-size: 35px;
+}
+.recommend p {
+  font-size: 26px;
+}
